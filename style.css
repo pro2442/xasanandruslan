@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #D99F9F;
+    z-index: 10;
+    background-color: #fff;
+}
+
+
+
+.head-img {
+    margin-top: 26px;
+    width: 154px;
+    height: 81px;
+}
+
+.label {
+    color: black;
+    margin-left: 41px;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.right {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.label:hover {
+    color: gray;
+}
+
+
+.arcicector {
+    width: 100%;
+    height: 659px;
+    background-image: url(./img/Blueprint.png);
+    background-size: 987px 658px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 215px;
+}
+
+.type-text {
+    font-weight: 800;
+    font-size: 45px;
+    color: #000000;
+}
+
+.type-text-one {
+    font-weight: 500;
+    font-size: 28px;
+    color: #333333;
+    margin-top: 17px;
+}
+
+.btn {
+    width: 181px;
+    height: 59px;
+    margin-top: 51px;
+    background: #990000;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: #8d0101d5;
+}
+
+.text {
+    margin-left: 176px;
+}
+
+.red-box {
+    background: #990000;
+    height: 460px;
+    width: 100%;
+}
+
+.red-right img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.white-text {
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.secret-img {
+    display: none;
+    width: 35px;
+    height: 35px;
+    transition: 300ms;
+    background-color: #fff;
+}
+
+.secret-img:hover {
+    filter: invert(50%);
+}
+
+.red-left {
+    position: absolute;
+    left: 176px;
+    top: 148px;
+}
+
+.red-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-box {
+    width: 100%;
+    height: 980px;
+    position: relative;
+}
+
+.img-left {
+    position: absolute;
+    left: 0px;
+    top: 249.27px;
+}
+
+.img-right {
+    position: absolute;
+    right: 0;
+    top: 298.5px;
+}
+
+.top {
+    position: absolute;
+    top: 400.25px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: right;
+    color: #000000;
+}
+
+.brown-block {
+    width: 100px;
+    height: 10px;
+    background: #990000;
+}
+
+.h111 {
+    width: fit-content;
+    height: 10px;
+    margin: 107px auto;
+}
+
+.top-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.display-grid {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-auto-rows: 118px;
+    grid-gap: 90px 214px;
+}
+
+.lot-text {
+    width: 100%;
+}
+
+.foote {
+    width: 100%;
+    height: 276px;
+    background-color: #990000;
+    padding: 60px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-logo {
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer-center {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.foot {
+    height: fit-content;
+    margin: 0 25px;
+    color: lightgray;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 200ms;
+}
+
+.foot:hover {
+    color: gray;
+}
+
+.right-footer h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right-footer button {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-image: linear-gradient(to bottom right, lightgreen, yellow);
+}
+
+.right-footer p {
+    font-size: 14px;
+    font-weight: 500;
+    color: lightgray;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 10px;
+    color: white;
+    border: 1px solid gray;
+    background-color: #444444;
+    border-radius: 100px 2px 2px 100px;
+}
+
+.right-footer img {
+    width: 24px;
+}
+
+footer{
+    background-color: #990000;
+}
+
+.dis-none{
+    display: none;
+    margin: 0 auto;
+    width: 250px;
+    padding-bottom: 20px;
+}
